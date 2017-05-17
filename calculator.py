@@ -2,13 +2,15 @@ import calendar        #using the inbuilt calendar module
 
 M = input("What is your name?\n")
 
-a = input("Which year were you born?\n\n")
+a = input("Which year were you born?\n")
 
 b = input("Enter your month of birth:\tFor January enter 1\n    February    2\n    March       3\n    April       4\n    May         5\n    June        6\n    July        7\n    August      8\n    September   9\n    October    10\n    November   11\n    December   12\n\n\n")
 
-c = input("Enter the date on which you were born(1-30(31))\n")
+c = input("Enter the date on which you were born (1-30(31))\n")
 
-x = calendar.weekday(year=int(a), month=int(b), day=int(c)) #module gives the index of the day from the list ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+x = calendar.weekday(year = int(a), month = int(b), day = int(c)) 
+#using the calendar module, a function weekday is used and the inputs are assigned to their specific parameters as inputs declare
+
 
 for d in c:
     if int(c) == 1:
