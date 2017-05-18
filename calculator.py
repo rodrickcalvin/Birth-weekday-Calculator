@@ -1,3 +1,8 @@
+#NAME --- WAMALA RODRICK CALVIN
+#REG NO. ---- 16/U/12277/PS
+#STUDENT NO. ---- 216012196
+#COURSE ---- COMPUTER ENGINEERING
+
 import calendar        #using the inbuilt calendar module
 
 M = input("What is your name?\n")
